@@ -1,0 +1,9 @@
+CheckUrl is a simple application to check the status of web sites. It periodically sends requests to a URL and shows the response in a tray icon (and in a balloon if the request was not successful).
+
+Upon start, an icon is added to the tray. By right clicking it, a short menu is opened with the options "Check now" (to check the URL immediately) and "Exit" (to close the application).
+
+CheckUrl is meant to be configured through the command line or with arguments added to a shortcut. The following arguments are accepted:
+
+  CheckUrl.jar [-interval MINUTES_BETWEEN_CHECK] URL
+
+If no interval is specified, only manual checks are available (using the "Check now" menu option).
